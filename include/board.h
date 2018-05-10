@@ -100,6 +100,10 @@
 #include "sama5d27_som1_ek.h"
 #endif
 
+#ifdef CONFIG_RCTU
+#include "rctu.h"
+#endif
+
 #include "contrib_board.h"
 
 /*
