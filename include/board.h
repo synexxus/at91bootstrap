@@ -124,6 +124,10 @@
 #include "sama5d2_icp.h"
 #endif
 
+#ifdef CONFIG_LEDGATEWAY
+#include "ledgateway.h"
+#endif
+
 #include "contrib_board.h"
 
 /*
