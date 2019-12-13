@@ -8,7 +8,7 @@ pipeline {
             description: "Build a tagged commit.",
             defaultValue: false)
 
-        gitParameter branchFilter: 'origin/(.*), name: 'Tag', type: 'PT_TAG'
+        gitParameter branchFilter: 'origin/(.*)', name: 'Tag', type: 'PT_TAG'
     }
 
     stages {
