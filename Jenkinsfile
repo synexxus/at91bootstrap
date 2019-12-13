@@ -14,6 +14,7 @@ pipeline {
     stages {
 
         stage('clean') {
+            agent { label 'armhf' }
             steps{
                 cleanWs()
             }
